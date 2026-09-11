@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Soumya B — PGPM at Great Lakes, ex-Amazon. Exploring Product Management, Analytics and Consulting.">
+    <title>Soumya B. | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="portfolio-frame">
+
+        <!-- ── STICKY NAV ───────────────── -->
+        <nav class="site-nav" id="top">
+            <a href="#top" class="nav-logo">Portfolio — PGPM '27</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Work</a></li>
+                <li><a href="#skills">Skillset</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <!-- ── HERO ─────────────────────── -->
+        <header class="hero">
+            <div class="hero-left">
+                <div class="hero-photo-wrapper">
+                    <img src="profile.jpeg" alt="Soumya B." class="hero-photo-left">
+                    <div class="hero-text-overlay">
+                        <h1 class="hero-name">Soumya B.</h1>
+                    </div>
+                </div>
+                <div class="hero-bottom">
+                    <div class="hero-links">
+                        <a href="https://www.linkedin.com/in/soumya-b-140a70403/" target="_blank"
+                            class="hero-link primary">LinkedIn ↗</a>
+                        <a href="Soumya_FT272079_resume.docx" download class="hero-link">Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <p class="hero-subtitle-right">Curious by default.<br>Problem-solver by habit.</p>
+                <video
+                    src="assets/FT272079_Soumya_Prodman.mp4"
+                    class="hero-video" controls muted playsinline></video>
+            </div>
+        </header>
+
+        <!-- ── INTRO STRIP ───────────────── -->
+        <section class="intro-strip">
+            <span class="intro-strip-label">About</span>
+            <div class="intro-strip-text">
+                <p>I've spent the last few years figuring out how <span class="text-lavender-dk">products and
+                        processes</span> can work better, first at Amazon and now through PGPM at Great Lakes.</p>
+                <p>Along the way, I've started exploring Product, Analytics and Consulting, and saying yes to things
+                    that challenge me to think and build differently.</p>
+            </div>
+        </section>
+
+        <!-- ── SECTIONS ─────────────────── -->
+        <main class="portfolio-body">
+
+            <!-- 1. EDUCATION -->
+            <section class="section-wrap" id="education">
+                <div class="section-head">
+                    <span class="section-num">01</span>
+                    <div>
+                        <h2 class="section-title">Education</h2>
+                        <span class="section-sub">A few classrooms, a lot of learning, and plenty of figuring things
+                            out.</span>
+                    </div>
+                </div>
+                <div class="tiles-grid">
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>PGPM</h3>
+                            <p>Great Lakes Institute of Management</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>PGPM — Great Lakes Institute of Management, Chennai</h3>
+                            <p><strong>2026 – 2027</strong> | Great Lakes Institute of Management, Chennai</p>
+                            <p>Active member of the Analytics Club and Village Student Coordinator &amp; Committee
+                                Member of Karma Yoga, contributing to student and community-focused initiatives. Also
+                                regularly participate in consulting and product competitions.</p>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Undergraduate (B.Tech)</h3>
+                            <p>SRM Institute of Science and Technology</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>B.Tech — SRM Institute of Science and Technology, Chennai</h3>
+                            <p><strong>2016 – 2020</strong> | SRM Institute of Science and Technology, Chennai</p>
+                            <p>Part of the MUN Organizing Committee and briefly served on the DSA Discipline Committee,
+                                gaining experience in coordination and event execution.</p>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>School</h3>
+                            <p>Vidhya Niketan, Coimbatore</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>12th &amp; 10th — Vidhya Niketan, Coimbatore</h3>
+                            <p><strong>12th (2016)</strong> | Vidhya Niketan, Coimbatore</p>
+                            <p><strong>10th (2014)</strong> | Vidhya Niketan, Coimbatore</p>
+                            <p>Part of the Paatshala intra-school competition organizing team — an early introduction to
+                                the fun of working behind the scenes.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="note-box">
+                    <h3 class="highlight-text">The Common Thread</h3>
+                    <p>I've always enjoyed working <span class="text-red">behind the scenes</span>, bringing people and
+                        ideas together, and making things happen — whether it's an event, a student initiative, or a
+                        competition.</p>
+                </div>
+            </section>
+
+            <!-- 2. WORK EXPERIENCE -->
+            <section class="section-wrap section-green" id="experience">
+                <div class="section-head">
+                    <span class="section-num">02</span>
+                    <div>
+                        <h2 class="section-title">Work Experience</h2>
+                        <span class="section-sub">From testing products to owning processes, here's how my role
+                            evolved.</span>
+                    </div>
+                </div>
+                <div class="tiles-grid">
+
+                    <div class="tile interactive-tile tile-wide" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Senior Associate, Quality Services</h3>
+                            <p>Amazon Development Centre | 2023 – 2026</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Senior Associate, Quality Services</h3>
+                            <p><strong>Amazon Development Centre | Jul 2023 – Apr 2026</strong></p>
+                            <p>My journey at Amazon grew from getting products ready to ship to making the <span
+                                    class="text-red">people and processes</span> behind them work better.</p>
+                            <ul>
+                                <li><strong>Owned NPI testing end-to-end:</strong> Coordinated across teams to drive
+                                    testing and release readiness, helping ensure products moved from development to
+                                    launch smoothly and on time.</li>
+                                <li><strong>Improved the way the team worked:</strong> Built a more structured approach
+                                    to task allocation and delegation, making workflows smoother and freeing up time for
+                                    higher-value work.</li>
+                                <li><strong>Enabled the team to scale:</strong> Led onboarding and knowledge transfer
+                                    for new team members, helping build capability within the team and get people
+                                    contributing faster.</li>
+                                <li><strong>Strengthened operational control:</strong> Took ownership of device
+                                    inventory and audit processes, reducing gaps and external escalations while
+                                    improving accountability.</li>
+                                <li><strong>Made an impact beyond the job:</strong> Regularly participated in Amazon's
+                                    Global Month of Volunteering (GMV), putting together sanitary packages for rural
+                                    women, creating essential kits during the Chennai floods, and making sustainable
+                                    toys for rural children.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile tile-wide" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Associate, Quality Services</h3>
+                            <p>Amazon Development Centre | 2021 – 2023</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Associate, Quality Services</h3>
+                            <p><strong>Amazon Development Centre | May 2021 – Jun 2023</strong></p>
+                            <p>This is where I started getting my hands dirty — quite literally with testbeds, devices,
+                                defects, and the occasional "why is this not working?" moment.</p>
+                            <ul>
+                                <li><strong>Improved testing efficiency:</strong> Redesigned the testbed setup process
+                                    to make testing quicker and less cumbersome.</li>
+                                <li><strong>Raised testing productivity:</strong> Audited test cases and defects to
+                                    identify gaps and improve execution.</li>
+                                <li><strong>Improved product understanding:</strong> Conducted product demonstrations
+                                    for QA teams and stakeholders.</li>
+                                <li><strong>Caught problems early:</strong> Worked closely with development and QA teams
+                                    to identify defects earlier in the cycle.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 3. SKILLSET -->
+            <section class="section-wrap" id="skills">
+                <div class="section-head">
+                    <span class="section-num">03</span>
+                    <div>
+                        <h2 class="section-title">Skillset</h2>
+                        <span class="section-sub">A mix of things I've learned, practised and picked up along the
+                            way.</span>
+                    </div>
+                </div>
+                <div class="tiles-grid two-cols">
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Hard Skills</h3>
+                            <p>Tools, frameworks and methods I use to turn problems into structured solutions.</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Hard Skills</h3>
+                            <ul class="skills-list">
+                                <li><strong>Product Testing &amp; QA</strong> Owned NPI testing lifecycle at Amazon.
+                                </li>
+                                <li><strong>Process Improvement</strong> Redesigned testing and task-allocation
+                                    processes.</li>
+                                <li><strong>JIRA &amp; Product Delivery</strong> Managed testing workflows and defect
+                                    tracking.</li>
+                                <li><strong>Tableau &amp; Data Viz</strong> Applied data visualization to present
+                                    insights.</li>
+                                <li><strong>ERP Implementation</strong> Configured end-to-end Odoo ERP simulation.</li>
+                                <li><strong>BPMN &amp; Process Mapping</strong> Mapped and structured business
+                                    processes.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Soft Skills</h3>
+                            <p>How I work with people, tackle problems and get things moving.</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Soft Skills</h3>
+                            <ul class="skills-list">
+                                <li><strong>Collaboration</strong> Worked with dev, QA, and cross-functional
+                                    stakeholders.</li>
+                                <li><strong>Problem-Solving</strong> Identified bottlenecks and introduced practical
+                                    solutions.</li>
+                                <li><strong>Ownership &amp; Initiative</strong> Took end-to-end ownership of NPI testing
+                                    and workflows.</li>
+                                <li><strong>Analytical Thinking</strong> Used audits to identify gaps and improve
+                                    productivity.</li>
+                                <li><strong>Attention to Detail</strong> Managed quality checks and device inventory
+                                    audits.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 4. ACADEMIC PROJECTS -->
+            <section class="section-wrap section-pink" id="projects">
+                <div class="section-head">
+                    <span class="section-num">04</span>
+                    <div>
+                        <h2 class="section-title">Academic Projects</h2>
+                        <span class="section-sub">From ideas to prototypes</span>
+                    </div>
+                </div>
+                <div class="tiles-grid">
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>CarePlus 365</h3>
+                            <p>Preventive Healthcare Subscription</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>CarePlus 365 | Ideathon 2026</h3>
+                            <p>Created CarePlus 365, a two-tier healthcare subscription model designed to move CarePlus
+                                from "visit us when you're sick" to continuous, preventive care. Led our team to winning
+                                the Ideathon.</p>
+                            <ul>
+                                <li>Designed a digital-first care ecosystem with health tracking, doctor continuity,
+                                    tele-consultations.</li>
+                                <li>Mapped the end-to-end patient journey.</li>
+                                <li>Built the value proposition, business model, go-to-market strategy, and success
+                                    metrics.</li>
+                            </ul>
+                            <p><strong>In a nutshell:</strong> Turn CarePlus from a clinic people visit when something
+                                goes wrong into a healthcare partner they keep coming back to.</p>
+                            <div class="img-gallery">
+                                <img src="assets/images/image1.jpeg" alt="CarePlus 365" class="project-img">
+                                <img src="assets/images/image2.jpeg" alt="CarePlus 365" class="project-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Karma Yoga — CoastalPreneurs</h3>
+                            <p>Community Seafood Venture</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>"CoastalPreneurs" | Karma Yoga 2026</h3>
+                            <p>Worked closely with the Pudupattinam fishing community to understand their challenges and
+                                help turn those insights into Coastalpreneurs, a seafood venture aimed at creating more
+                                stable livelihoods.</p>
+                            <p>Involved in community coordination, business planning, and taking the initiative from
+                                classroom discussions to an actual campus stall. Also volunteered with the BPR team for
+                                photography/videography and helped organize a beach clean-up drive with 110 students.
+                            </p>
+                            <div class="img-gallery three-col">
+                                <img src="assets/images/image3.jpeg" alt="Karma Yoga" class="project-img">
+                                <img src="assets/images/image4.jpeg" alt="Karma Yoga" class="project-img">
+                                <img src="assets/images/image5.jpeg" alt="Karma Yoga" class="project-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Soft Touch</h3>
+                            <p>Bedside Robotic Assistant</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Soft Touch | Shark Tank Competition 2026</h3>
+                            <p>Developed Soft Touch, a bedside robotic assistant designed to help elderly people
+                                maintain independence and dignity in their everyday routines. Uses a soft gripper and
+                                fixed reach zone to handle tasks.</p>
+                            <p><strong>In a nutshell:</strong> A robotic helping hand designed to give elderly users
+                                greater independence and dignity, one everyday task at a time.</p>
+                            <a href="https://6a8ff9bc1882f9da6735be5f--glittering-torrone-54cfd5.netlify.app/"
+                                target="_blank">Prototype Link ↗</a>
+                            <img src="assets/images/image6.jpeg" alt="Soft Touch" class="project-img">
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>SmartBrew ERP</h3>
+                            <p>Odoo ERP Implementation Simulation</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>SmartBrew ERP Simulation</h3>
+                            <p>Worked on an end-to-end Odoo ERP implementation for SmartBrew, a fictional coffee
+                                manufacturing company. Created purchase orders, managed inventory, generated invoices,
+                                and built dashboards.</p>
+                            <p><strong>In a nutshell:</strong> I got to play both sides of the table, understanding the
+                                business process behind ERP and the system that makes it all connect.</p>
+                            <img src="assets/images/image7.png" alt="SmartBrew ERP" class="project-img">
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Employee Insights Dashboard</h3>
+                            <p>Tableau Data Visualization</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Employee Insights Dashboard | Tableau</h3>
+                            <p>Built an interactive Tableau dashboard to analyse employee recognition patterns and
+                                satisfaction, using data across recognition type, rewards, departments, regions, and
+                                collaboration scores.</p>
+                            <p><strong>In a nutshell:</strong> Took a spreadsheet full of employee recognition data and
+                                turned it into a dashboard that actually tells a story.</p>
+                            <img src="assets/images/image8.png" alt="Dashboard" class="project-img">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 5. CERTIFICATES -->
+            <section class="section-wrap" id="certificates">
+                <div class="section-head">
+                    <span class="section-num">05</span>
+                    <div>
+                        <h2 class="section-title">Certificates</h2>
+                        <span class="section-sub">Keeping the learning curve going.</span>
+                    </div>
+                </div>
+                <div class="tiles-grid">
+                    <div class="tile interactive-tile tile-wide" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Current Certifications</h3>
+                            <p>Learning, upskilling and adding a few more tools to the toolkit.</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <div class="cert-item">
+                                <h3>Product Management with AI | Finlatics (Pursuing)</h3>
+                                <p>Learning the art of building products people actually want, while exploring how AI
+                                    can make product decisions smarter and faster. Basically, adding a product brain to
+                                    my quality mindset.</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3>McKinsey Forward Program (Pursuing)</h3>
+                                <p>Sharpening my problem-solving, communication, and leadership skills through a
+                                    business and consulting lens — because solving the problem is only half the job;
+                                    knowing which problem to solve is the other half.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. AWARDS & ACHIEVEMENTS -->
+            <section class="section-wrap section-green" id="awards">
+                <div class="section-head">
+                    <span class="section-num">06</span>
+                    <div>
+                        <h2 class="section-title">Awards &amp; Achievements</h2>
+                        <span class="section-sub">A few moments that made the hard work feel worth it.</span>
+                    </div>
+                </div>
+                <div class="tiles-grid">
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Purple Champ Award</h3>
+                            <p>Amazon | 2023</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Purple Champ Award | Amazon | 2023</h3>
+                            <p>Earned the Purple Champ after receiving the Star of the Month award four times in a year,
+                                recognizing my consistent contributions to process improvement, knowledge sharing,
+                                quality, and execution. It was a great validation of my ownership mindset, consistency,
+                                and ability to create impact beyond my day-to-day responsibilities.</p>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Winner — Ideathon</h3>
+                            <p>GLIM Chennai | 2026</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Winner | Ideathon | GLIM Chennai | 2026</h3>
+                            <p>Won an Ideathon just two days into joining GLIM, teaming up with people I had just met to
+                                develop CarePlus 365, a preventive healthcare subscription concept. The experience
+                                pushed my product thinking, creativity, collaboration, and ability to turn an idea into
+                                a practical solution under pressure.</p>
+                        </div>
+                    </div>
+
+                    <div class="tile interactive-tile" onclick="toggleExpand(this)">
+                        <div class="tile-arrow">→</div>
+                        <div class="tile-front">
+                            <h3>Winner — CrossFire</h3>
+                            <p>GLIM Chennai | 2026</p>
+                            <span class="click-hint">Tap to read more</span>
+                        </div>
+                        <div class="tile-back hidden">
+                            <h3>Winner | CrossFire Consulting Competition | GLIM Chennai | 2026</h3>
+                            <p>A live consulting face-off where our team tackled a ride-hailing pricing dilemma and
+                                defended our recommendation against another team. Our winning moment came from one
+                                simple question: "As consultants, what solution are you proposing?" It reinforced the
+                                value of asking the right questions, structured thinking, business judgment, and
+                                challenging ideas constructively.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ── CLOSING ───────────────────── -->
+        <footer class="closing-section">
+            <p class="closing-text">Still curious. Still building. Still figuring out what's next.</p>
+            <span class="closing-accent">Soumya B. — 2026</span>
+        </footer>
+
+    </div><!-- end .portfolio-frame -->
+
+    <!-- Modal -->
+    <div id="overlay" class="overlay" onclick="closeAllTiles()"></div>
+    <div id="expanded-modal" class="expanded-modal">
+        <button class="close-btn" onclick="closeAllTiles()">✕</button>
+        <div id="modal-content" class="modal-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const toggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navLinks.classList.remove('open'));
+        });
+    </script>
+</body>
+
+</html>
